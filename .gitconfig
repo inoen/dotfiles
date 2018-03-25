@@ -1,0 +1,7 @@
+[gui]
+
+[user]
+	email = inoeyt@gmail.com
+	name = inoen
+[core]
+	editor = '%HOMEPATH%\\vim80-kaoriya-win64\\gvim.exe' '-m'
