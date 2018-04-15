@@ -1,0 +1,20 @@
+{
+    "fonts.fontSize": "12px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "denniskehrig.ShowWhitespace.checked": true,
+    "linting.collapsed": true,
+    "useTabChar": false,
+    "tabSize": 5,
+    "debug.showErrorsInStatusBar": true,
+    "brackets-eslint.gutterMarks": true,
+    "brackets-eslint.useLocalESLint": false,
+    "extensions.sort": "downloadCount",
+    "custom.work.tooltip": true,
+    "custom.work.useIconsOfCustomWork": true,
+    "custom.work.grayScaleIcons": false,
+    "custom.work.gutter.bookmark": true,
+    "custom.work.autoHideTheTabmenu": true,
+    "custom.work.showWorkingListViewonLeftSidebar": true,
+    "brackets-css-color-preview.enabled": true,
+    "spaceUnits": 4
+}

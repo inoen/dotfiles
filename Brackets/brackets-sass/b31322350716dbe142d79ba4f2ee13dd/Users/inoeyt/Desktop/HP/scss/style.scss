@@ -1,0 +1,76 @@
+/*-------  ここから共通のCSS  --------*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+    transition: all 0.3s;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/*-------  ここまで共通のCSS  --------*/
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    line-height: 50px;
+    height: 50px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+header a{
+    color: #323a45;
+}
+
+header a:hover{
+    color: #0dc0c0;
+}
+
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    color: #777;
+}
+
+ul{
+    
+    margin-left: auto;
+    display: flex;
+}
+li{
+    align-self: center;
+}
+
+li + li{
+    margin-left: 20px;
+}
+
+div {
+  p {
+    font-weight: bold;
+  }
+}
+ 
+// 変数のテスト
+$fontColor: #34da66;
+ 
+body {
+  background-color:$fontColor;
+}

@@ -4,4 +4,4 @@
 	email = inoeyt@gmail.com
 	name = inoen
 [core]
-	editor = '%HOMEPATH%\\vim80-kaoriya-win64\\gvim.exe' '-m'
+	editor = 'C:\\Users\\inoeyt\\vim80-kaoriya-win64\\gvim.exe' '-m'

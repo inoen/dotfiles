@@ -1,0 +1,471 @@
+/*
+ * これは、Brackets がサポートしている環境設定が 記録された読み取り
+ * 専用ファイルです。
+ * もう片方のペインで開かれた環境設定ファイル brackets.json を変更
+ * する際の参考としてお使いください。
+ * Brackets 内で環境設定を使用する方法について は、Web ページ
+ * https://github.com/adobe/brackets/wiki/How-to-Use-Brackets#preferences
+ * を参照してください。
+*/
+
+{
+	// デフォルト: true
+	"brackets-eslint.gutterMarks": true,
+
+	// デフォルト: false
+	"brackets-eslint.useLocalESLint": false,
+
+	// Determines whether the indent guides will be shown or hidden.
+	"brackets-indent-guides.enabled": false,
+
+	// The color of the indent guides. Can be any valid CSS Color value.
+	"brackets-indent-guides.guideColor": "rgba(128, 128, 128, 0.5)",
+
+	// This value determines the style of the guide: "solid" or "dotted".
+	"brackets-indent-guides.guideStyle": "solid",
+
+	// Determines whether the first Indent Guide will be hidden or shown.
+	"brackets-indent-guides.hideFirst": false,
+
+	// 中括弧、角括弧、丸括弧を自動的に閉じるには true
+	"closeBrackets": true,
+
+	// 「作業中ファイル」コンテキストメニューから「上をすべて閉じる」を削除するには false
+	"closeOthers.above": true,
+
+	// 「作業中ファイル」コンテキストメニューから「下をすべて閉じる」を削除するには false
+	"closeOthers.below": true,
+
+	// 「作業中ファイル」コンテキストメニューから「他をすべて閉じる」を削除するには false
+	"closeOthers.others": true,
+
+	// タグ終了オプションを設定します
+	"closeTags": {
+		// 自動終了させないタグの配列
+		"dontCloseTags": [],
+
+		// 表示時に空白行があるタグの配列
+		"indentTags": [],
+
+		// 終了タグの / の入力時に閉じる
+		"whenClosing": true,
+
+		// 開始タグの > の入力時に閉じる
+		"whenOpening": true
+	},
+
+	// インデントレベルの変更時に、折りたたみ可能なセクションマーカーを常に生成するには true
+	"code-folding.alwaysUseIndentFold": false,
+
+	// コード折りたたみを有効にするには true
+	"code-folding.enabled": true,
+
+	// 余白の上にマウスのポインターを置いたときにのみセクション折りたたみマーカーを表示させるには true
+	"code-folding.hideUntilMouseover": false,
+
+	// エディター内の選択したテキストでコード折りたたみを有効にするには true
+	"code-folding.makeSelectionsFoldable": true,
+
+	// 「すべて折りたたむ」を適用するレベル数を制限します
+	"code-folding.maxFoldLevel": 2,
+
+	// 次の行数に達したら折りたたみ可能なセクションのアイコンを表示する
+	"code-folding.minFoldSize": 2,
+
+	// ファイルまたはプロジェクトを閉じて再度開く場合に折りたたまれたセクションを記憶するには true
+	"code-folding.saveFoldStates": true,
+
+	// HTML 属性ヒントを有効化/無効化
+	"codehint.AttrHints": true,
+
+	// CSS/LESS/SCSS プロパティヒントを有効化/無効化
+	"codehint.CssPropHints": true,
+
+	// JavaScript のコードヒントを有効化/無効化
+	"codehint.JSHints": true,
+
+	// 環境設定のコードヒントを有効化/無効化
+	"codehint.PrefHints": true,
+
+	// SVG のコードヒントを有効化/無効化
+	"codehint.SVGHints": true,
+
+	// HTML エンティティヒントを有効化/無効化
+	"codehint.SpecialCharHints": true,
+
+	// HTML タグヒントを有効化/無効化
+	"codehint.TagHints": true,
+
+	// HTML や CSS/LESS/SCSS の URL ヒントを有効化/無効化
+	"codehint.UrlCodeHints": true,
+
+	// Hidden the box(tabMenu) of the right hand if visible, this happens when the document in focus changes their state.
+	"custom.work.autoHideTheTabmenu": false,
+
+	// Apply a bluish style to the tab bar
+	"custom.work.blueish": false,
+
+	// Mode Icons Grayscale, only Icons of 'Custom Work'. non included when moves tabs.
+	"custom.work.grayScaleIcons": false,
+
+	// Editor Gutter Width - Ability to toggle/retrive bookmarks by clicking on gutter. a vertical bar in right side of the editor with indicators of bookmarks in the current editor.
+	"custom.work.gutter.bookmark": false,
+
+	// Moves all buttons of toolbar to bottom sidebar.
+	"custom.work.moveToolbarToSidebar": false,
+
+	// Reduce the opacity of the non-focused pane.
+	"custom.work.reduce.opacity": false,
+
+	// If false, change the tabs width automatically based on the size of the editor.
+	"custom.work.scrollwheel": false,
+
+	// If navigation by scrolling is enabled, this option will automatically display the file in the tab menu(top horizontal tab).
+	"custom.work.scrollwheel.change": false,
+
+	// If previous is true (scroll wheel), this will advance n pixels to the right or left according to the rotation of the mouse wheel.
+	"custom.work.scrollwheel.step": 50,
+
+	// Show default working listview on left Sidebar.
+	"custom.work.showWorkingListViewonLeftSidebar": false,
+
+	// If checked; displays a one or two buttons on each tabs. This makes it possible to switch between the editors the current document.
+	"custom.work.splitButton": false,
+
+	// Shows a Tooltip with information about the File.
+	"custom.work.tooltip": false,
+
+	// Use icons of this addon (CUSTOM WORK) instead of icons of other addons.
+	"custom.work.useIconsOfCustomWork": false,
+
+	// ステータスバーにエラーを表示するには true
+	"debug.showErrorsInStatusBar": false,
+
+	// デフォルト: true
+	"denniskehrig.ShowWhitespace.checked": true,
+
+	// ドラッグ＆ドロップ機能を有効化/無効化
+	"dragDropText": false,
+
+	// 無効化された初期設定のエクステンション
+	"extensions.default.disabled": [],
+
+	// downloadCount または publishedDate を使用してエクステンションをソート
+	"extensions.sort": "publishedDate",
+
+	// クイック検索を有効にするには true
+	"findInFiles.instantSearch": true,
+
+	// ノードベースの検索を有効にするには true
+	"findInFiles.nodeSearch": true,
+
+	// フォントファミリーを変更
+	"fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+
+	// フォントサイズを変更 (例 : 13 px)
+	"fonts.fontSize": "12px",
+
+	// 正常性データのトラッキングを有効にする
+	"healthData.healthDataTracking": true,
+
+	// ドキュメント全体の一致する文字列の自動ハイライト表示を有効にします
+	"highlightMatches": false,
+
+	"htmlhint.options": {
+		// デフォルト: true
+		"attr-lowercase": true,
+
+		// デフォルト: true
+		"attr-no-duplication": true,
+
+		// デフォルト: true
+		"attr-value-double-quotes": true,
+
+		// デフォルト: true
+		"doctype-first": true,
+
+		// デフォルト: true
+		"id-unique": true,
+
+		// デフォルト: true
+		"spec-char-escape": true,
+
+		// デフォルト: true
+		"src-not-empty": true,
+
+		// デフォルト: true
+		"tag-pair": true,
+
+		// デフォルト: true
+		"tagname-lowercase": true,
+
+		// デフォルト: true
+		"title-require": true
+	},
+
+	// 行コメントのインデントを有効にするには true
+	"indentLineComment": false,
+
+	// CodeMirror による入力とフォーカスの処理方法を選択します。Textarea (初期設定) や counterditable (スクリーンリーダー向け)(不安定) などを選択できます
+	"inputStyle": "textarea",
+
+	// タブで現在選択しているコードヒントを挿入するには true
+	"insertHintOnTab": false,
+
+	// Tern が制御不能になる原因として検出されたファイルの一覧
+	"jscodehints.detectedExclusions": [],
+
+	// ファイルの認識時に Tern がタイムアウトするまでの時間
+	"jscodehints.inferenceTimeout": 30000,
+
+	// . の入力時に JS コードヒントを自動表示しない場合は true
+	"jscodehints.noHintsOnDot": false,
+
+	// JavaScript コードヒントのデータタイプの詳細を有効化/無効化
+	"jscodehints.typedetails": true,
+
+	// 初期設定で JS 構文チェックのオプションが付いたオブジェクト
+	"jslint.options": {
+		// 代入式を許可するには true
+		"ass": false,
+
+		// ビット演算子を許可するには true
+		"bitwise": false,
+
+		// 標準ブラウザーのグローバルを事前定義する必要がある場合は true
+		"browser": false,
+
+		// Google Closure の慣用句を許可するには true
+		"closure": false,
+
+		// continue ステートメントを許可するには true
+		"continue": false,
+
+		// CouchDB グローバルを事前定義する必要がある場合は true
+		"couch": false,
+
+		// デバッガーステートメントを許可するには true
+		"debug": false,
+
+		// 開発に役立つブラウザーグローバルを事前定義する必要がある場合は true
+		"devel": false,
+
+		// == と != を許可するには true
+		"eqeq": false,
+
+		// ES6 グローバルを事前定義する必要がある場合は true
+		"es6": false,
+
+		// eval を許可するには true
+		"evil": false,
+
+		// フィルターされていない「for ... in」を許可するには true
+		"forin": false,
+
+		// タブ幅を指定
+		"indent": 0,
+
+		// 報告する最大警告数
+		"maxerr": 0,
+
+		// 1 行内の最大文字数
+		"maxlen": 0,
+
+		// 小文字のコンストラクターを許可するには true
+		"newcap": false,
+
+		// Node.js グローバルを事前定義する必要がある場合は true
+		"node": false,
+
+		// 識別子での先頭のアンダースコアを許可するには true
+		"nomen": false,
+
+		// 最初のエラー発生時に停止するには true
+		"passfail": false,
+
+		// ++ と -- を許可するには true
+		"plusplus": false,
+
+		// 正規表現の . と [^...]. を許可するには true
+		"regexp": false,
+
+		// Rhino グローバルを事前定義する必要がある場合は true
+		"rhino": false,
+
+		// use strict プラグマの不足を許可するには true
+		"sloppy": false,
+
+		// ブロック ('...Sync') メソッドを使用できる場合は true。
+		"stupid": false,
+
+		// 不完全な登録を許可するには true
+		"sub": false,
+
+		// TODO コメントを許可するには true
+		"todo": false,
+
+		// 未使用のパラメーターを許可するには true
+		"unparam": false,
+
+		// 関数で 2 つ以上の変数を許可するには true
+		"vars": false,
+
+		// ホワイトスペースのルールを無視するには true
+		"white": false
+	},
+
+	// ファイル拡張子から言語名への追加のマッピング
+	"language.fileExtensions": {},
+
+	// ファイル名から言語名への追加のマッピング
+	"language.fileNames": {},
+
+	// 何も選択せずにコピーやカットを行うと、カーソルのあるすべての行がコピーまたはカットされます。
+	"lineWiseCopyCut": true,
+
+	// 非同期の構文チェックがタイムアウトするまでの時間 (ミリ秒)
+	"linting.asyncTimeout": 10000,
+
+	// 構文チェックパネルを閉じるには true
+	"linting.collapsed": false,
+
+	// コード検証を有効にするには true
+	"linting.enabled": true,
+
+	// 最初に実行する構文チェックの配列
+	"linting.prefer": [],
+
+	// linting.prefer のみで指定されたプロバイダーを実行するには true
+	"linting.usePreferredOnly": false,
+
+	// ライブプレビューでのリバースインスペクトを無効にするには false
+	"livedev.enableReverseInspect": true,
+
+	// 試験ライブプレビューを有効にするには true
+	"livedev.multibrowser": false,
+
+	// ライブプレビューハイライト設定
+	"livedev.remoteHighlight": {
+		"animateEndValue": {
+			// デフォルト: rgba(0, 162, 255, 0)
+			"background-color": "rgba(0, 162, 255, 0)",
+
+			// デフォルト: 0.6
+			"opacity": 0.6
+		},
+
+		"animateStartValue": {
+			// デフォルト: rgba(0, 162, 255, 0.5)
+			"background-color": "rgba(0, 162, 255, 0.5)"
+		},
+
+		// デフォルト: rgba(21, 165, 255, 0.85)
+		"borderColor": "rgba(21, 165, 255, 0.85)",
+
+		"marginStyling": {
+			// デフォルト: rgba(21, 165, 255, 0.58)
+			"background-color": "rgba(21, 165, 255, 0.58)"
+		},
+
+		"paddingStyling": {
+			// デフォルト: rgba(0, 162, 255, 0.5)
+			"border-color": "rgba(0, 162, 255, 0.5)",
+
+			// デフォルト: dashed
+			"border-style": "dashed",
+
+			// デフォルト: 1px
+			"border-width": "1px"
+		},
+
+		// デフォルト: true
+		"showPaddingMargin": true
+	},
+
+	// ライブプレビューで WebSocket サーバーが実行されるポート
+	"livedev.wsPort": 8125,
+
+	// 一度に表示される最大コードヒント
+	"maxCodeHints": 50,
+
+	// 検索履歴内の検索項目の最大数
+	"maxSearchHistory": 10,
+
+	// Brackets でコードのみモードを有効にし、その他すべての UI エレメントを非表示にするには true
+	"noDistractions": false,
+
+	// ペインからの最後のファイルがペインのヘッダーの閉じるボタンにより閉じられた後、ペインを折りたたむには true
+	"pane.mergePanesWhenLastFileClosed": false,
+
+	// ヘッダーの閉じるボタンと反転表示ボタンを表示するタイミングを切り替えます。
+	"pane.showPaneHeaderButtons": "hover",
+
+	// 分割ビューで環境設定ファイルを開けないようにするには false
+	"preferencesView.openPrefsInSplitView": true,
+
+	// 左側/上部のペインでユーザーの環境設定ファイルを開くには false
+	"preferencesView.openUserPrefsInSecondPane": true,
+
+	// 拡張機能のインストールに使用するプロキシサーバーの URL
+	"proxy": "",
+
+	// クイックビューを有効にするには true
+	"quickview.enabled": true,
+
+	// URL のない拡張機能の画像プレビューを表示するには true
+	"quickview.extensionlessImagePreview": true,
+
+	// 最近使用したファイルのナビゲーションを有効化/無効化
+	"recent-files.navigation": true,
+
+	// ドキュメントの終端を超えたスクロールを有効にするには true
+	"scrollPastEnd": false,
+
+	// すべてのコードヒントを無効にするには false
+	"showCodeHints": true,
+
+	// 文字が選択されているときに点滅カーソルを表示したままにします
+	"showCursorWhenSelecting": false,
+
+	// コードの左の「余白」に行番号を表示するには true
+	"showLineNumbers": true,
+
+	// 新規ブロックの作成時に自動的にインデントを設定
+	"smartIndent": true,
+
+	// ソフトタブの動作を無効にするには false
+	"softTabs": true,
+
+	// プロジェクトツリーでディレクトリが先に来るように並べ替えるには true
+	"sortDirectoriesFirst": true,
+
+	// スペースベースのインデントに用いるスペースの数
+	"spaceUnits": 4,
+
+	// 組み込みのサーバーがライブプレビューで使用するポートの番号
+	"staticserver.port": 0,
+
+	// カーソルが置かれた線の背景色をハイライト表示するには true
+	"styleActiveLine": false,
+
+	// タブに表示するスペースの数
+	"tabSize": 4,
+
+	// Brackets のテーマを選択
+	"themes.theme": "light-theme",
+
+	// カスタムスクロールバーを許可するには true
+	"themes.themeScrollbars": true,
+
+	// Inline Color Editor で大文字の 16 進カラーを生成するには true
+	"uppercaseColors": false,
+
+	// スペースの代わりにタブを使用するには true
+	"useTabChar": false,
+
+	// ビューポートの幅を超える行を折り返す
+	"wordWrap": true,
+
+	"xmlhint.options":
+	}
+}

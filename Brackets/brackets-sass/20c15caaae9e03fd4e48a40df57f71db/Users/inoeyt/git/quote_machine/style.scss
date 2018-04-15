@@ -1,0 +1,37 @@
+$maincolor: #556c5c;
+
+html,body{
+    height: 100%;
+}
+main{
+    height: 100%;
+    background-color: $maincolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 50%;
+    width: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    a{
+        margin: 0 15px;
+    }
+}
+button{
+    border: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+    color: #fff;
+}

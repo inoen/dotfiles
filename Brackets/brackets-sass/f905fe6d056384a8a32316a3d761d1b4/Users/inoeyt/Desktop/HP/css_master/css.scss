@@ -1,0 +1,204 @@
+@supports (display: grid) {
+ .conain {
+   display: grid;
+  grid-template-columns: repeat(auto-fit,  minmax(100px, 1fr));
+      grid-template-rows: 150px 230px;
+
+ }
+}
+
+$mcolor: #556c5c;
+/* Mixin */
+@mixin wh($width:100px, $height:100px){
+    width: $width;
+    height: $height;
+}
+
+@mixin padbox($w:100%,$pt:100%,$cl:#fff){
+    width: $w;
+    padding-top: $pt;
+    background: $cl;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin headline($fs:24px, $pfs:13px, $hcolor:#000, $p:p){
+    #{$p}{
+        font-size: $fs;
+        color: $hcolor;
+        margin: 0;
+    }
+        p{
+        font-size: $pfs;
+        color: $hcolor*1.3;
+    }
+}
+
+body{
+    background: #fff;
+    font-family: 'Patua One', cursive;
+}
+.menu{
+    padding: 0 10px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 2s;
+}
+
+nav{
+position: absolute;
+    right: 10%;
+        background-color: rgba(255, 255, 255,0.5);
+    border-bottom: 3px solid #888;
+        box-shadow: 1px 2px 3px rgba(110,60,0,0.2);
+    ul{
+        list-style-type: none;
+    }
+    a{
+        display: block;
+    }
+    label{
+        background: url(img/like.png)  no-repeat left center;
+        display: block;
+        cursor: pointer;
+         padding: 0px 0 0px 50px;
+        font-size: 33px;
+    }
+}
+input{
+    &#menu{
+        display: none;
+    }
+    &:checked +label {
+    background-image: url(img/like1.png);
+        }
+    &:checked {
+        ~.menu{
+        height: auto;
+        opacity: 1;
+        }
+        ~nav{
+            padding-bottom: 3px;
+        }
+    }
+}
+
+main{
+    padding: 15px;
+    background: #fdfdf9;
+     animation: foo 2s 0s, bar 1s 0s;
+}
+section{
+    background: #fdfdf9*0.95;
+    margin-top: 110px;
+}
+/*--------header---------*/
+header{
+    display: flex;
+}
+
+.headline{
+    @include headline(33px,17px,#444,h1)}
+
+.headline2{
+    h2{
+        border-bottom: 2px solid #000;
+        &:before{
+            content: '■';
+        }
+    }
+    @include headline(28px,14px,#5a4709,h2)}
+
+.allbox{
+    @include wh(500px,600px);
+    border: 11px solid #000;
+}
+
+.pad{
+    @include wh(400px,100%);
+    border: 10px solid #777;
+}
+.pad1{
+    @include wh(100%,100px);
+    border: 11px solid #ddd;
+}
+.p10{
+    @include padbox(100%,0,#ab7788);
+    height: 100%;
+}
+.p5{
+    @include padbox(50%,50%,#77aa77);
+}
+
+.item{
+    @include wh(100px,100px);
+    background: $mcolor;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_details{
+    align-content:flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: #fa84a9;
+}
+
+.grid10{
+    height: 500px;
+    width: 480px;
+}
+
+$item2color:#fa84a9;
+
+.item2{
+    @extend .item;
+    @include wh(35px,25px);
+    margin-right: 5px;
+}
+
+.flex_details {
+    div:nth-child(odd){
+    background-color: $item2color*1.5;
+     animation: foo 2s 0s, bar 1s 0s;
+}
+    div:nth-child(even){
+    background-color: $item2color/1.5;
+}
+}
+
+.contain div:nth-child(odd){
+    background: $mcolor*2;
+}
+
+.ov{
+    overflow: auto;
+}
+.ov1{
+    overflow: visible;
+}
+
+//grid02アニメーション
+@keyframes foo { 
+ 0% { opacity: 0; } 
+ 100% { opacity: 1; } 
+}
+@keyframes bar { 
+ 0% { transform: translateX(-100px); } 
+ 100% { transform: translateX(0px); } 
+}
+.grid02 {
+ animation: foo 2s 0s, bar 1s 0s;
+}
+
+.grid03{
+    display: flex;
+    align-items: flex-end;
+}

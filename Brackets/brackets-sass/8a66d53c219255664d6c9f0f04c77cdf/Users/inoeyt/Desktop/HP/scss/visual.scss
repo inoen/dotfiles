@@ -1,0 +1,35 @@
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+}
+
+html, body {
+    background: var(--beige);
+    color: var(--red);
+}
+
+h1, p {
+    color: var(--red);
+}
+
+nav {
+    --nav-red: #ff6619;
+}
+
+nav a {
+    color: var(--nav-red);
+}
+
+.item {
+    background: var(--yellow);
+}
+.f{
+    --red:#ee5577;
+    --yellow:#fccd4d;
+}
+
+button {
+    background: var(--red);
+    color: var(--yellow);
+}http://roashi.sakura.ne.jp/griiid/
