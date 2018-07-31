@@ -16,5 +16,7 @@
     "custom.work.autoHideTheTabmenu": true,
     "custom.work.showWorkingListViewonLeftSidebar": true,
     "brackets-css-color-preview.enabled": true,
-    "spaceUnits": 4
+    "spaceUnits": 4,
+    "linting.enabled": true,
+    "brackets-indent-guides.enabled": true
 }

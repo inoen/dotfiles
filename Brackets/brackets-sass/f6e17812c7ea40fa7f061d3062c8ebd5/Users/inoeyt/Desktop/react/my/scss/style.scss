@@ -1,0 +1,145 @@
+//variable
+
+$maincolor: #fff;
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+html, body{
+    font-family: 'Noto Sans Japanese';
+    background: $maincolor;
+    height: 100%;
+}
+
+p{
+    margin: 0 1.5em;
+}
+//headline
+
+h2{
+    margin: 1em;
+    padding: 0.8em;
+    background: #78A839;
+    color: #fff;
+    border-radius: 5px;
+}
+
+h3{
+    margin: 1em;
+}
+//navi
+
+
+#header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+nav{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.navi{
+    list-style: none;
+    display: flex;
+      transition: .5s;
+    li{
+        padding: 5px;
+        a{
+            color: #666;
+            text-decoration: none;
+        }
+    }
+}
+input{
+    visibility: hidden;
+}
+label{
+    visibility: hidden;
+    position: absolute;
+    right: 10%;
+    top: 40px;
+}
+
+@media screen and (max-width: 600px){
+    #header{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    .navi{
+        position: relative;
+        visibility: hidden;
+        display:block;
+        opacity: 0;
+        height: 0;
+        right: -130px;
+    }
+    label{
+        visibility: visible;
+        z-index: 5;
+    }
+    input{
+        width: 0;
+
+        &#menu{
+        &:checked +label {
+        background-image: url(img/like1.png);
+            background-position: top 3px left;
+            }
+        &:checked {
+            ~.navi{
+            visibility: visible;
+            height: auto;
+            opacity: 1;
+            width: 100%;
+            background-color: rgba(255, 255, 255,0.5);
+            border-bottom: 3px solid #888;
+            box-shadow: 1px 2px 3px rgba(110,60,0,0.2);
+            right: 0px;
+            }
+        }
+        &:checked ~p{
+        border-bottom: 2px solid #000;
+        }
+        }
+    }
+}
+main{
+    height: 100%;
+    animation: foo 1s 0s, bar 1s 0s;
+}
+.top_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    h1{
+        z-index: 1;
+    }
+}
+
+.circle{
+  width: 200px;
+  height: 188px;
+  border-radius: 100%;
+  background: #f5f5f5;
+    position: absolute;
+    z-index: 0;
+}
+
+
+@keyframes foo {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes bar {
+  0% {
+    transform: translateX(-10px); }
+  100% {
+    transform: translateX(0px); } }

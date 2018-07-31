@@ -1,0 +1,89 @@
+body{
+    background:  #E0D8C6 ;
+    font-family: Raleway, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳＰゴシック', 'MS PGothic', sans-serif;
+
+}
+
+#logo{
+    font-size: 24px;
+    p{
+        background: #0168b3;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+#header{
+    display: flex;
+}
+
+nav{
+    margin-left: auto;
+}
+
+.navi{
+    list-style: none;
+    display: flex;
+      transition: .5s;
+    li{
+        padding: 5px;
+        a{
+            color: #666;
+            text-decoration: none;
+        }
+    }
+}
+input{
+    visibility: hidden;
+}
+label{
+    visibility: hidden;
+    position: absolute;
+    right: 10%;
+    top: 40px;
+}
+
+@media screen and (max-width: 800px){
+    #header{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    .navi{
+    visibility: hidden;
+        display:block;
+        opacity: 0;
+        height: 0;
+    }
+    label{
+        visibility: visible;
+    }
+    input{
+        width: 0;
+        &#menu{
+        &:checked +label {
+        background-image: url(img/like1.png);
+            background-position: top 3px left;
+            }
+        &:checked {
+            ~.navi{
+                visibility: visible;
+            height: auto;
+            opacity: 1;
+            right: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255,0.5);
+            border-bottom: 3px solid #888;
+            box-shadow: 1px 2px 3px rgba(110,60,0,0.2);
+            }
+        }
+        &:checked ~p{
+        border-bottom: 2px solid #000;
+        }
+        }
+    }
+}

@@ -1,11 +1,13 @@
 {
     "problems-panel": {
-        "visible": false
+        "visible": false,
+        "size": 199,
+        "contentSize": 170
     },
     "welcomeProjects": [
         "C:/Program Files (x86)/Brackets/samples/ja/Getting Started"
     ],
-    "projectPath": "C:/Users/inoeyt/git/react/",
+    "projectPath": "C:/Users/inoeyt/Desktop/react/",
     "afterFirstLaunch": "true",
     "project": {
         "C:/Program Files (x86)/Brackets/samples/ja/Getting Started/": {
@@ -72,7 +74,7 @@
             "project.treeState": [
                 [
                     "D:/hp/hp/css/",
-                    "D:/hp/hp/js/"
+                    "D:/hp/hp/image/"
                 ]
             ],
             "mainView.state": {
@@ -88,13 +90,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 57,
-                                            "ch": 15,
+                                            "line": 170,
+                                            "ch": 14,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 57,
-                                            "ch": 15,
+                                            "line": 170,
+                                            "ch": 14,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -103,7 +105,7 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 379
+                                    "y": 2401
                                 }
                             }
                         },
@@ -140,13 +142,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 41,
-                                            "ch": 4,
+                                            "line": 7,
+                                            "ch": 100,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 41,
-                                            "ch": 4,
+                                            "line": 7,
+                                            "ch": 100,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -155,7 +157,7 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 411
+                                    "y": 0
                                 }
                             }
                         },
@@ -166,22 +168,22 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 30,
-                                            "ch": 0,
+                                            "line": 27,
+                                            "ch": 27,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 45,
-                                            "ch": 9,
+                                            "line": 27,
+                                            "ch": 27,
                                             "sticky": null
                                         },
-                                        "reversed": true,
+                                        "reversed": false,
                                         "primary": true
                                     }
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 331
+                                    "y": 481
                                 }
                             }
                         },
@@ -192,13 +194,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 3,
-                                            "ch": 17,
+                                            "line": 0,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 3,
-                                            "ch": 17,
+                                            "line": 0,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -213,18 +215,18 @@
                         },
                         {
                             "file": "D:/hp/hp/cars.html",
-                            "active": false,
+                            "active": true,
                             "viewState": {
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 40,
-                                            "ch": 4,
+                                            "line": 8,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 40,
-                                            "ch": 4,
+                                            "line": 9,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -233,33 +235,7 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 381
-                                }
-                            }
-                        },
-                        {
-                            "file": "D:/hp/hp/drivers.html",
-                            "active": false,
-                            "viewState": {
-                                "selections": [
-                                    {
-                                        "start": {
-                                            "line": 44,
-                                            "ch": 9,
-                                            "sticky": null
-                                        },
-                                        "end": {
-                                            "line": 44,
-                                            "ch": 9,
-                                            "sticky": null
-                                        },
-                                        "reversed": false,
-                                        "primary": true
-                                    }
-                                ],
-                                "scrollPos": {
-                                    "x": 0,
-                                    "y": 34
+                                    "y": 0
                                 }
                             }
                         },
@@ -270,13 +246,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 7,
-                                            "ch": 75,
+                                            "line": 23,
+                                            "ch": 27,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 7,
-                                            "ch": 75,
+                                            "line": 23,
+                                            "ch": 27,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -296,13 +272,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 321,
-                                            "ch": 7,
+                                            "line": 339,
+                                            "ch": 1,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 321,
-                                            "ch": 7,
+                                            "line": 351,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -311,7 +287,7 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 4339
+                                    "y": 4591
                                 }
                             }
                         },
@@ -322,16 +298,16 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 0,
-                                            "ch": 0,
+                                            "line": 5,
+                                            "ch": 44,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 8,
-                                            "ch": 6,
+                                            "line": 5,
+                                            "ch": 55,
                                             "sticky": null
                                         },
-                                        "reversed": true,
+                                        "reversed": false,
                                         "primary": true
                                     }
                                 ],
@@ -343,7 +319,7 @@
                         },
                         {
                             "file": "D:/hp/hp/js/header.js",
-                            "active": true,
+                            "active": false,
                             "viewState": {
                                 "selections": [
                                     {
@@ -374,13 +350,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 46,
-                                            "ch": 9,
+                                            "line": 12,
+                                            "ch": 42,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 46,
-                                            "ch": 9,
+                                            "line": 12,
+                                            "ch": 69,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -389,7 +365,7 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 49
+                                    "y": 0
                                 }
                             }
                         },
@@ -416,6 +392,32 @@
                                 "scrollPos": {
                                     "x": 0,
                                     "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "D:/hp/hp/drivers.html",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 13,
+                                            "ch": 113,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 13,
+                                            "ch": 113,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 352
                                 }
                             }
                         }
@@ -1232,7 +1234,11 @@
             "encoding": {},
             "project.treeState": [
                 [
-                    "C:/Users/inoeyt/Desktop/HP/griiid/"
+                    "C:/Users/inoeyt/Desktop/HP/griiid/",
+                    "C:/Users/inoeyt/Desktop/HP/css_master/"
+                ],
+                [
+                    "C:/Users/inoeyt/Desktop/HP/griiid/css/"
                 ]
             ],
             "code-folding.folds": {
@@ -1287,18 +1293,18 @@
                         },
                         {
                             "file": "C:/Users/inoeyt/Desktop/HP/css_master/index.html",
-                            "active": false,
+                            "active": true,
                             "viewState": {
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 20,
-                                            "ch": 12,
+                                            "line": 6,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 20,
-                                            "ch": 12,
+                                            "line": 7,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -1318,13 +1324,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 17,
-                                            "ch": 21,
+                                            "line": 69,
+                                            "ch": 1,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 17,
-                                            "ch": 21,
+                                            "line": 95,
+                                            "ch": 34,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -1333,33 +1339,33 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 229
+                                    "y": 794
                                 }
                             }
                         },
                         {
                             "file": "C:/Users/inoeyt/Desktop/HP/css_master/css.css",
-                            "active": true,
+                            "active": false,
                             "viewState": {
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 18,
-                                            "ch": 12,
+                                            "line": 10,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 18,
-                                            "ch": 18,
+                                            "line": 10,
+                                            "ch": 38,
                                             "sticky": null
                                         },
-                                        "reversed": false,
+                                        "reversed": true,
                                         "primary": true
                                     }
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 1996
+                                    "y": 0
                                 }
                             }
                         }
@@ -1593,7 +1599,7 @@
                     "first-pane": [
                         {
                             "file": "C:/Users/inoeyt/Desktop/main/header.php",
-                            "active": false,
+                            "active": true,
                             "viewState": {
                                 "selections": [
                                     {
@@ -1903,7 +1909,7 @@
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 871
+                                    "y": 841
                                 }
                             }
                         },
@@ -1968,11 +1974,7 @@
             "encoding": {},
             "code-folding.folds": {},
             "openFiles": [],
-            "project.treeState": [
-                [
-                    "C:/Users/inoeyt/git/quote_machine/"
-                ]
-            ],
+            "project.treeState": [],
             "mainView.state": {
                 "orientation": null,
                 "activePaneId": "first-pane",
@@ -1986,13 +1988,13 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 19,
-                                            "ch": 30,
+                                            "line": 26,
+                                            "ch": 40,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 19,
-                                            "ch": 30,
+                                            "line": 26,
+                                            "ch": 40,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -2006,19 +2008,19 @@
                             }
                         },
                         {
-                            "file": "C:/Users/inoeyt/git/quote_machine/index.html",
+                            "file": "C:/Users/inoeyt/git/react/scss/style.scss",
                             "active": true,
                             "viewState": {
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 4,
-                                            "ch": 26,
+                                            "line": 8,
+                                            "ch": 17,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 4,
-                                            "ch": 26,
+                                            "line": 8,
+                                            "ch": 17,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -2032,71 +2034,19 @@
                             }
                         },
                         {
-                            "file": "C:/Users/inoeyt/git/quote_machine/style.scss",
+                            "file": "C:/Users/inoeyt/git/react/index.html",
                             "active": false,
                             "viewState": {
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 29,
-                                            "ch": 25,
+                                            "line": 13,
+                                            "ch": 10,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 29,
-                                            "ch": 25,
-                                            "sticky": null
-                                        },
-                                        "reversed": false,
-                                        "primary": true
-                                    }
-                                ],
-                                "scrollPos": {
-                                    "x": 0,
-                                    "y": 0
-                                }
-                            }
-                        },
-                        {
-                            "file": "C:/Users/inoeyt/git/quote_machine/quote.js",
-                            "active": false,
-                            "viewState": {
-                                "selections": [
-                                    {
-                                        "start": {
-                                            "line": 40,
-                                            "ch": 0,
-                                            "sticky": null
-                                        },
-                                        "end": {
-                                            "line": 40,
-                                            "ch": 0,
-                                            "sticky": null
-                                        },
-                                        "reversed": false,
-                                        "primary": true
-                                    }
-                                ],
-                                "scrollPos": {
-                                    "x": 0,
-                                    "y": 31
-                                }
-                            }
-                        },
-                        {
-                            "file": "C:/Users/inoeyt/git/quote_machine/test.json",
-                            "active": false,
-                            "viewState": {
-                                "selections": [
-                                    {
-                                        "start": {
-                                            "line": 9,
-                                            "ch": 19,
-                                            "sticky": null
-                                        },
-                                        "end": {
-                                            "line": 9,
-                                            "ch": 19,
+                                            "line": 13,
+                                            "ch": 10,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -2116,37 +2066,10 @@
         "C:/Users/inoeyt/git/react/": {
             "encoding": {},
             "code-folding.folds": {
-                "C:/Users/inoeyt/git/react/index.html": {}
+                "C:/Users/inoeyt/git/react/名称未設定-1": {},
+                "C:/Users/inoeyt/git/react/ProtectedRoute.js": {}
             },
-            "openFiles": [
-                {
-                    "file": "C:/Users/inoeyt/git/react/index.html",
-                    "paneId": "first-pane",
-                    "cursor": {
-                        "line": 0,
-                        "ch": 0,
-                        "sticky": null
-                    }
-                },
-                {
-                    "file": "C:/Users/inoeyt/git/react/index.js",
-                    "paneId": "first-pane",
-                    "cursor": {
-                        "line": 3,
-                        "ch": 0,
-                        "sticky": null
-                    }
-                },
-                {
-                    "file": "C:/Users/inoeyt/Desktop/perborgen-cmGe8Cp/index.html",
-                    "paneId": "first-pane",
-                    "cursor": {
-                        "line": 7,
-                        "ch": 11,
-                        "sticky": null
-                    }
-                }
-            ],
+            "openFiles": [],
             "mainView.state": {
                 "orientation": null,
                 "activePaneId": "first-pane",
@@ -2154,28 +2077,28 @@
                 "panes": {
                     "first-pane": [
                         {
-                            "file": "C:/Users/inoeyt/git/react/index.js",
+                            "file": "C:/Users/inoeyt/git/react/test.js",
                             "active": false,
                             "viewState": {
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 3,
-                                            "ch": 0,
+                                            "line": 11,
+                                            "ch": 27,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 7,
-                                            "ch": 1,
+                                            "line": 11,
+                                            "ch": 27,
                                             "sticky": null
                                         },
-                                        "reversed": true,
+                                        "reversed": false,
                                         "primary": true
                                     }
                                 ],
                                 "scrollPos": {
                                     "x": 0,
-                                    "y": 0
+                                    "y": 106
                                 }
                             }
                         },
@@ -2186,13 +2109,117 @@
                                 "selections": [
                                     {
                                         "start": {
-                                            "line": 0,
-                                            "ch": 6,
+                                            "line": 34,
+                                            "ch": 13,
                                             "sticky": null
                                         },
                                         "end": {
-                                            "line": 0,
-                                            "ch": 6,
+                                            "line": 34,
+                                            "ch": 13,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/git/react/index.js",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 5,
+                                            "ch": 5,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 5,
+                                            "ch": 5,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/git/react/scss/style.scss",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 22,
+                                            "ch": 22,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "ch": 22,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/git/react/test2.js",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 15,
+                                            "ch": 18,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "ch": 18,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 151
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/git/react/i.html",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 10,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 10,
+                                            "ch": 0,
                                             "sticky": null
                                         },
                                         "reversed": false,
@@ -2207,29 +2234,580 @@
                         }
                     ]
                 }
-            }
-        }
-    },
-    "HealthData.Logs": {
-        "fileStats": {
-            "openedFileExt": {
-                "html": 1
             },
-            "workingSetFileExt": {},
-            "openedFileEncoding": {
-                "UTF-8": 1
+            "project.treeState": [
+                [
+                    "C:/Users/inoeyt/git/react/scss/"
+                ]
+            ]
+        },
+        "C:/Users/inoeyt/Desktop/haruhi/": {
+            "encoding": {},
+            "project.treeState": [
+                [
+                    "C:/Users/inoeyt/Desktop/haruhi/css/",
+                    "C:/Users/inoeyt/Desktop/haruhi/scss/"
+                ]
+            ],
+            "mainView.state": {
+                "orientation": null,
+                "activePaneId": "first-pane",
+                "splitPercentage": 1,
+                "panes": {
+                    "first-pane": [
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/haruhi/index.html",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 30,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 45,
+                                            "ch": 9,
+                                            "sticky": null
+                                        },
+                                        "reversed": true,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 406
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/haruhi/scss/style.scss",
+                            "active": true,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 17,
+                                            "ch": 1,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 88,
+                                            "ch": 1,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 631
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/haruhi/gulpfile.js",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 22,
+                                            "ch": 30,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 22,
+                                            "ch": 30,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/haruhi/css/style.css",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 0,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 0,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "openFiles": [],
+            "code-folding.folds": {
+                "C:/Users/inoeyt/Desktop/haruhi/css/style.css": {}
+            }
+        },
+        "C:/Users/inoeyt/Desktop/react/": {
+            "encoding": {
+                "C:/Users/inoeyt/git/scrapingdrama/text.txt": "SHIFT_JIS"
+            },
+            "code-folding.folds": {
+                "C:/Users/inoeyt/Desktop/react/_config.yml": {},
+                "C:/Users/inoeyt/Desktop/my.ini": {},
+                "C:/ProgramData/MySQL/MySQL Server 5.7/my.ini": {}
+            },
+            "openFiles": [
+                {
+                    "file": "C:/ProgramData/MySQL/MySQL Server 5.7/my.ini",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/index.html",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 40,
+                        "ch": 16,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/ProgramData/MySQL/MySQL Server 5.7/Data/INOYUH.err",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 6087,
+                        "ch": 43,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/ProgramData/MySQL/MySQL Server 5.7/新しいフォルダー/my.ini",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/my.ini",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/git/scrapingdrama/text.txt",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/AppData/Roaming/Brackets/keymap.json",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 3,
+                        "ch": 20,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/index.js",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 23,
+                        "ch": 24,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/css/style.css",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 5,
+                        "ch": 3,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/scss/style.scss",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 15,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/gulpfile.js",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 27,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/test2.js",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 18,
+                        "ch": 15,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/test.js",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/react/my/.htaccess2",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "C:/Users/inoeyt/Desktop/haruhi/package-lock.json",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 2,
+                        "ch": 21,
+                        "sticky": null
+                    }
+                },
+                {
+                    "file": "D:/ソフト/FC2LiveAlert/update.xml",
+                    "paneId": "first-pane",
+                    "cursor": {
+                        "line": 0,
+                        "ch": 0,
+                        "sticky": null
+                    }
+                }
+            ],
+            "project.treeState": [
+                [
+                    "C:/Users/inoeyt/Desktop/react/my/"
+                ],
+                [
+                    "C:/Users/inoeyt/Desktop/react/my/css/",
+                    "C:/Users/inoeyt/Desktop/react/my/js/",
+                    "C:/Users/inoeyt/Desktop/react/my/scss/"
+                ]
+            ],
+            "mainView.state": {
+                "orientation": null,
+                "activePaneId": "first-pane",
+                "splitPercentage": 1,
+                "panes": {
+                    "first-pane": [
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/react/my/index.html",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 40,
+                                            "ch": 16,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 40,
+                                            "ch": 16,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 453
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/react/gulpfile.js",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 27,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 27,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/react/my/scss/style.scss",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 15,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 15,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/react/my/css/style.css",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 5,
+                                            "ch": 3,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 5,
+                                            "ch": 3,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/react/my/test2.js",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 18,
+                                            "ch": 15,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "ch": 15,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/Desktop/react/my/index.js",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 23,
+                                            "ch": 24,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 23,
+                                            "ch": 24,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/AppData/Roaming/Brackets/keymap.json",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 3,
+                                            "ch": 20,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 3,
+                                            "ch": 20,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/Users/inoeyt/git/scrapingdrama/text.txt",
+                            "active": false,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 0,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 18,
+                                            "ch": 0,
+                                            "sticky": null
+                                        },
+                                        "reversed": true,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            }
+                        },
+                        {
+                            "file": "C:/ProgramData/MySQL/MySQL Server 5.7/my.ini",
+                            "active": true,
+                            "viewState": {
+                                "selections": [
+                                    {
+                                        "start": {
+                                            "line": 111,
+                                            "ch": 13,
+                                            "sticky": null
+                                        },
+                                        "end": {
+                                            "line": 111,
+                                            "ch": 13,
+                                            "sticky": null
+                                        },
+                                        "reversed": false,
+                                        "primary": true
+                                    }
+                                ],
+                                "scrollPos": {
+                                    "x": 0,
+                                    "y": 1190
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         }
     },
+    "HealthData.Logs": {},
     "sidebar": {
         "visible": true,
-        "size": 178
+        "size": 208
     },
-    "nextHealthDataSendTime": 1523780793286,
+    "nextHealthDataSendTime": 1533012682292,
     "workingSetSortMethod": "cmd.sortWorkingSetByAdded",
     "auto-install-extensions": {},
-    "lastInfoURLFetchTime": 1523698838624,
+    "lastInfoURLFetchTime": 1533007603940,
     "updateInfo": [
+        {
+            "buildNumber": 17696,
+            "versionString": "Release 1.13",
+            "dateString": "2018-06-18",
+            "releaseNotesURL": "https://github.com/adobe/brackets/wiki/Release-Notes:-1.13",
+            "downloadURL": "http://brackets.io",
+            "newFeatures": [
+                {
+                    "name": "ファイルツリーのファイルとフォルダーを整理する",
+                    "description": "クラス/コンストラクトのコンテキストで現在アクティブな識別子の getters/setters を作成します。"
+                },
+                {
+                    "name": "リモートファイルを開く",
+                    "description": "Brackets でリモートでホストされた web ページを開けるようになりました。ショートカットの Ctrl / Cmd+Shift+O キーを使用し、URL を入力すればすぐにファイルが開き、Brackets 内でコードを確認できます。"
+                },
+                {
+                    "name": "自動更新",
+                    "description": "コードエディターを終了しなくても、Brackets を自動的に更新できるようになりました。"
+                }
+            ]
+        },
         {
             "buildNumber": 17621,
             "versionString": "Release 1.12",
@@ -3584,19 +4162,21 @@
         }
     ],
     "extensionUpdateInfo": [],
-    "lastExtensionRegistryCheckTime": 1523695470654,
+    "lastExtensionRegistryCheckTime": 1532926285422,
     "healthDataNotificationShown": true,
     "UUID": "d507-1ce0-cd4c-64b5-2592",
     "recentProjects": [
-        "C:/Users/inoeyt/git/react",
-        "C:/Users/inoeyt/git/quote_machine",
-        "C:/Users/inoeyt/Desktop/HP",
+        "C:/Users/inoeyt/Desktop/react",
         "D:/hp/hp",
+        "C:/Users/inoeyt/Desktop/haruhi",
+        "C:/Users/inoeyt/git/react",
+        "C:/Users/inoeyt/Desktop/HP",
+        "C:/Users/inoeyt/git",
+        "C:/Users/inoeyt/Desktop/main",
+        "C:/Users/inoeyt/git/quote_machine",
         "D:/haruhi",
         "D:/hp/ji",
         "D:/hp",
-        "C:/Users/inoeyt/Desktop/main",
-        "C:/Users/inoeyt/git",
         "C:/Users/inoeyt/Desktop/CSSGRID",
         "C:/Users/inoeyt/Desktop/main2",
         "C:/Users/inoeyt/Desktop/HP/haruhi",
@@ -3612,17 +4192,19 @@
     "first-pane": {
         "size": 586
     },
-    "lastNotifiedBuildNumber": 17621,
+    "lastNotifiedBuildNumber": 17696,
     "livedev.highlight": true,
     "OlderUUID": "ef6f7e5d-7835-403f-a3a0-de61d255333b",
     "searchHistory": [
-        "<script type=\"text/javascript\" src=\"js/header.js\"></script>",
-        "document.write('",
-        "currenttext",
-        "r",
-        "data",
-        "var browserSync = require(",
-        "zigzag",
-        "AnimateButton"
+        "utf8",
+        "#menu",
+        "<script crossorigin src=\"https://unpkg.com/react-dom@16/umd/react-dom.production.min.js\"></script>",
+        "#header",
+        "name=\"\"",
+        "利用者の皆様へ",
+        "”",
+        "はるひ介護タクシーは山口県周南市に事業所を構えています。山口県内外問わず、手厚くご対応します。ご相談、介護タクシーのご予約は電話番号まで。",
+        "<img src=\"image/i.png\">",
+        "nav"
     ]
 }
